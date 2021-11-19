@@ -74,8 +74,6 @@ self.addEventListener("fetch", function(evt) {
   
     // #2: Handle requests for static items. (html, css, js, etc)
     // Implement "offline-first" pattern. (aka "cache falling back to network";
-    // see
-    // https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook#cache-falling-back-to-network)
     evt.respondWith(
       caches.match(evt.request).then(function(response) {
         return response || fetch(evt.request);

@@ -26,7 +26,7 @@ request.onerror = function(event) {
 };
 
 function saveRecord(record) {
-  // TODO: this function should save a transaction object to indexedDB so that
+  // this function should save a transaction object to indexedDB so that
   // it can be synced with the database when the user goes back online.
   console.log("Save record invoked");
   // Create a transaction on the BudgetStore db with readwrite access
@@ -40,7 +40,7 @@ function saveRecord(record) {
 }
 
 function checkDatabase() {
-  // TODO: this function should check for any saved transactions and post them
+  // this function should check for any saved transactions and post them
   // all to the database. Delete the transactions from IndexedDB if the post
   // request is successful.
   // Open a transaction on your BudgetStore db
