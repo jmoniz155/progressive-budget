@@ -44,7 +44,7 @@ function checkDatabase() {
   // all to the database. Delete the transactions from IndexedDB if the post
   // request is successful.
   // Open a transaction on your BudgetStore db
-  const transaction = db.transaction(["BudgetStore"], "readwrite");
+  const transaction = db.transaction(["BudgetStore"], "readonly");
 
   // access your BudgetStore object
   const store = transaction.objectStore("BudgetStore");

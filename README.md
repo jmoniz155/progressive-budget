@@ -1,18 +1,17 @@
-# progressive-budget
+# Progressive Web Application - Progressive Budget
 
 ## Description
-`This is a Progressive Budget application that allows a user ` 
+`This is a Progressive Web Budget application that allows a user to add a transaction, and save to the database. If your internet goes down the Progressive Web Application function will automatically allow a user to still use the app and add a transaction. When the internet restores the data you entered in will automatically be saved.` 
 
 ![](image/)
 
+---
 
 ## Function
 
-This application allows a user to add, edit and continue a saved workout. Simply answer the prompts and it will generate a saved workout, so a user can track their fitness.
+This application functions using a PWA or progressive web application using a web manifest, service worker and cache function which allows a user to use an app when the internet goes down.
 
-## Credits
-
-I would like to give credit to my Varsity Tutor for helping me understand how to add routes, and link with mongoose.
+---
 
 ## Table of Contents
 
@@ -24,11 +23,9 @@ I would like to give credit to my Varsity Tutor for helping me understand how to
 
 [Links](#links)
 
-[Repository](https://github.com/jmoniz155/progressive-budget)
+[Author](#author)
 
-[Live Website](https://jmoniz155.github.io/progressive-budget/)
-
-
+---
 ## Study-Material
 
 [Mongodb](https://www.mongodb.com/)
@@ -39,23 +36,30 @@ I would like to give credit to my Varsity Tutor for helping me understand how to
 
 [Express](https://expressjs.com/en/starter/hello-world.html)
 
-[Mozilla Json Stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+[Cache](https://web.dev/offline-cookbook/#cache-falling-back-to-network)
 
+[Mozilla Web Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest)
+
+[Mozilla Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker)
+
+---
 
 ## Features
 
-This app was built using HTML 3, CSS 6, Javascript, Mongoose, and Express
+This app was built using HTML 3, CSS 6, Javascript, Express, Mongoose, Web Manifest, Service Worker, Cache and Progressive Web Application
+
+---
 
 ## Links
 
-[Repository](https://github.com/jmoniz155/progressive-budget)
+[GitHub Repository](https://github.com/jmoniz155/progressive-budget)
 
-[Live Website](https://jmoniz155.github.io/progressive-budget/)
+[Heroku Deployed App](https://deploy-budget-11172021.herokuapp.com/)
 
+---
+---
 
-
-
-
+## Author
 
 ![lco mascot](https://learncodeonline.in/mascot.png)
 
