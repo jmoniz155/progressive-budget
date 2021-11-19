@@ -1,7 +1,9 @@
 # Progressive Web Application - Progressive Budget
 
 ## Description
-`This is a Progressive Web Budget application that allows a user to add a transaction, and save to the database. If your internet goes down the Progressive Web Application function will automatically allow a user to still use the app and add a transaction. When the internet restores the data you entered in will automatically be saved.` 
+```
+This is a Progressive Web Budget application that allows a user to add a transaction, and save to the database. If your internet goes down the Progressive Web Application function will automatically allow a user to still use the app and add a transaction. When the internet restores the data you entered in will automatically be saved.
+```
 
 ![](image/pwa-budget.jpg)
 
